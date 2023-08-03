@@ -1,0 +1,145 @@
+/* ALL  COMMON CSS START HERE============ */
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  line-height: 0.8;
+}
+a,
+a:hover {
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* ALL  COMMON CSS START END============ */
+/* HEADER PART START HERE-------------- */
+.navbar {
+  background: #fae3b6;
+  padding: 30px 0;
+}
+
+.nav-link {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: #000000;
+}
+/* .nav-link:hover{
+  color: red;
+} */
+
+.auth_btn .btn {
+  background: #fae3b6;
+  padding: 10px 25px;
+  border: 1px solid #f2d09b;
+  margin-left: 10px;
+  font-style: 24px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  transition: 0.4s;
+  box-shadow: -2px 7px 5px 1px rgba(0, 0, 0, 0.18);
+  -webkit-box-shadow: -2px 7px 5px 1px rgba(0, 0, 0, 0.18);
+  -moz-box-shadow: -2px 7px 5px 1px rgba(0, 0, 0, 0.18);
+}
+.auth_btn .btn:hover {
+  background: #fdbb57;
+  border: 1px solid #fdbb57;
+}
+/* HEADER PART END HERE-------------- */
+
+/* BANNER PART START HERE==== */
+#banner_part {
+  padding-top: 235px;
+  padding-bottom: 125px;
+  background: #fae3b6;
+}
+.banner_text h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 64px;
+  color: #000000;
+  line-height: 90px;
+  margin-bottom: 30px;
+}
+.banner_text p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  color: #000000;
+  line-height: 33px;
+}
+.banner_text a {
+  padding: 30px 90px;
+  margin-top: 80px;
+  background: #000000;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: #ffffff;
+}
+.banner_img {
+  text-align: right;
+  position: relative;
+}
+.banner_img img {
+  z-index: 9999;
+}
+
+.dot_img {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+/* BANNER PART END HERE==== */
+
+/* COLLECTION PART START HERE==== */
+#Collection_part {
+  padding-top: 200px;
+  padding-bottom: 105px;
+}
+.common_text h3 {
+  text-align: center;
+  font-size: 62px;
+  font-weight: 700;
+  color: #000;
+  font-family: "Frank Ruhl Libre", serif;
+}
+/* COLLECTION PART END HERE==== */
+
+/* PHOTOS_PART START HERE==== */
+
+.collection_img {
+  position: relative;
+}
+
+.collection_text {
+  padding: 15px 105px;
+  background: #fff;
+  font-size: 24px;
+  font-weight: 400;
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 10px;
+}
+
+/* PHOTOS_PART END HERE==== */
